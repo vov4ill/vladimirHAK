@@ -1,0 +1,139 @@
+// главная
+@media (max-width: 1024px) {
+    
+    .top {
+        padding-left: calc(50% - 393px);
+        padding-right: calc(50% - 393px);
+    
+    }
+
+    .for {
+        &__item {
+            height: 268px;
+        }
+    }
+
+    .for_product {
+        padding-left: 24px;
+        padding-right: 24px;
+    }
+
+    .product_box_sale {
+        padding-left: 24px;
+        padding-right: 24px;
+    }
+
+    .catalog_box {
+        padding-left: 24px;
+        padding-right: 24px;
+    }
+    
+    .img_foot {
+        display: none;
+    }
+
+    .bottom {
+        padding-left: 24px;
+        padding-right: 24px;
+    }
+
+    .prod1 {
+        gap: 29px;
+        justify-content: space-between;
+    }
+
+    .catalog_product {
+        gap: 29px;
+    }
+ }
+
+@media (max-width: 834px) {
+    .top {
+        padding-left: 24px;
+        padding-right: 24px;
+    }
+
+}
+
+
+
+// каталог 
+@media (max-width: 1024px   ) {
+    .topC {
+        padding-left: calc(50% - 393px);
+        padding-right: calc(50% - 393px);
+    }
+    .link_flex {
+        padding-left: 24px;
+        padding-right: 24px;
+    }
+    .catalogC {
+        padding-left: 24px;
+        padding-right: 24px;
+    }
+    .link_CC {
+        padding-left: 24px;
+        padding-right: 24px;
+    }    
+
+    .catalogC {
+        gap: 29px;
+    }    
+
+    
+}
+
+@media (max-width: 834px) {
+    .topC {
+        padding-left: 24px;
+        padding-right: 24px;
+    }
+
+}
+
+// корзина 
+
+@media (max-width: 1024px) {
+    // .topCart {
+    //     padding-left: calc(50% - 393px);
+    //     paddig-right: calc(50% - 393px);
+    
+    .cart {
+        padding-left: 24px;
+        padding-right: 24px;
+        display: flex; 
+        flex-wrap: wrap;
+        flex-direction: column;
+        gap: 74px;
+    }
+
+    // .cart__name-box {
+    //     width: calc(100% - 48px);
+    // }
+
+    .cart__form {
+        width: 376px;
+    }
+
+    // .prod1 {
+    //     justify-content: normal;
+    // }
+
+}
+
+@media (max-width: 834px) {
+    .topCart {
+        padding-left: 24px;
+        padding-right: 24px;
+    }
+
+}
+
+@media (max-width: 832px) {
+    .prod1 {
+        gap: 29px;
+        justify-content: center;
+    }
+}
+
+
